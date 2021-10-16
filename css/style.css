@@ -1,0 +1,209 @@
+@charset "UTF-8";
+#cuerpo {
+  background: #505a5e;
+  background: -webkit-gradient(linear, left top, right top, from(#505a5e), color-stop(47%, #7c9baa), color-stop(93%, #c1d7e2));
+  background: linear-gradient(90deg, #505a5e 0%, #7c9baa 47%, #c1d7e2 93%);
+  border-radius: 80px;
+}
+
+#cuerpo #divCarrito {
+  width: 500px;
+  height: 500px;
+  border: 5px double black;
+  display: none;
+  position: fixed;
+  top: 110px;
+  left: 90px;
+  z-index: 99;
+  -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.781);
+}
+
+#cuerpo #divCarrito #carro {
+  font-size: 25px;
+  margin-left: 30px;
+}
+
+#cuerpo #divCarrito #carro #lista {
+  margin-left: 30px;
+  color: white;
+  font-weight: 500;
+}
+
+#cuerpo #mostrar {
+  background-color: white;
+  padding: 18px 30px;
+  position: fixed;
+  top: 40px;
+  left: 10px;
+  -webkit-transition: all 300ms ease 0ms;
+  transition: all 300ms ease 0ms;
+  -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  z-index: 99;
+  border-radius: 80px;
+  width: 100px;
+  height: 90px;
+}
+
+#cuerpo #mostrar #image {
+  margin-left: -9px;
+  margin-top: 0px;
+}
+
+#cuerpo #mostrar:hover {
+  width: 105px;
+  height: 95px;
+}
+
+#cuerpo #mostrar:hover #image {
+  margin-left: -5px;
+  margin-top: 2px;
+}
+
+#cuerpo .btn-flotante {
+  background-color: #b89f9f;
+  padding: 18px 30px;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  -webkit-transition: all 300ms ease 0ms;
+  transition: all 300ms ease 0ms;
+  -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  z-index: 99;
+  border-radius: 80px;
+}
+
+#cuerpo #saludo p {
+  text-align: center;
+  font-weight: 900;
+  font-size: 50px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+#cuerpo .btn-flotante:hover {
+  background-color: gray;
+  -webkit-box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+  -webkit-transform: translateY(-7px);
+          transform: translateY(-7px);
+}
+
+#cuerpo .titulo {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-decoration: underline;
+  color: black;
+}
+
+#cuerpo .margen {
+  margin-top: 100px;
+  -ms-grid-columns: 30px;
+      grid-template-columns: 30px;
+}
+
+#cuerpo .margen .margen2 {
+  margin-bottom: 30px;
+  color: white;
+  border: 2px solid white;
+  margin: 10px;
+  padding: 20px;
+}
+
+#cuerpo .margen .margen2 #cantidad {
+  width: 50px;
+}
+
+#cuerpo .margen .margen2 .descripcion {
+  -webkit-text-decoration: underline black;
+          text-decoration: underline black;
+  color: black;
+}
+
+#cuerpo .margen .margen2 .descripcion:hover {
+  font-weight: 700;
+}
+
+#cuerpo .margen .margen2 .seña {
+  color: rgba(0, 0, 0, 0.795);
+}
+
+#cuerpo .piepagina {
+  border-top: 10px solid gray;
+  margin-top: 100px;
+  border: 2px solid black;
+}
+
+#cuerpo .piepagina .formulario {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+  justify-self: center;
+}
+
+#cuerpo .piepagina .formulario .letraform {
+  color: black;
+  width: 700px;
+}
+
+#cuerpo .piepagina .formulario .letraform .legend {
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+@-webkit-keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#cuerpo .piepagina .formulario .contactanos {
+  display: row;
+  margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  .galeria .btn-flotante {
+    font-size: 14px;
+    padding: 12px 20px;
+    bottom: 20px;
+    right: 20px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

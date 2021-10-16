@@ -1,0 +1,42 @@
+[
+    {
+      "userId": 1,
+      "name": "Lucas Rodriguez",
+      "email": "lucasrodriguez@hotmail.com"
+    },
+    {
+        "userId": 2,
+        "name": "Mateo Gonzalez",
+        "email": "mateogonzalez@hotmail.com"
+      },
+      {
+        "userId": 3,
+        "name": "Agustin Galeano",
+        "email": "agustingaleano@hotmail.com"
+      },
+      {
+        "userId": 4,
+        "name": "Manuel Dorrego",
+        "email": "manueldorrego@hotmail.com"
+      },
+      {
+        "userId": 5,
+        "name": "Florencia Cabrera",
+        "email": "florenciacabrera@hotmail.com"
+      },
+      {
+        "userId": 6,
+        "name": "Ariana Herlein",
+        "email": "arianaherlein@hotmail.com"
+      },
+      {
+        "userId": 7,
+        "name": "Lourdes Lecoche",
+        "email": "lourdeslecoche@hotmail.com"
+      },
+      {
+        "userId": 8,
+        "name": "Mariano Cisterna",
+        "email": "marianocisterna@hotmail.com"
+      }
+]

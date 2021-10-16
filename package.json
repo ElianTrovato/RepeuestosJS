@@ -1,0 +1,17 @@
+{
+  "name": "javascript.trovatoelian",
+  "version": "1.0.0",
+  "description": "",
+  "main": "archivoJava.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass--incluide-path scss sass/styleSCSS.scss css/style.CSS.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.12"
+  }
+}
